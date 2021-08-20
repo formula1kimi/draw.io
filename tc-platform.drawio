@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T06:06:17.172Z" agent="5.0 (Windows)" etag="7NQc_32vN_7KDvs6D8cr" version="14.9.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-20T12:25:05.098Z" agent="5.0 (Windows)" etag="fYtA-p7qSZGU3D34y_gX" version="14.9.8" type="github" pages="3">
   <diagram id="utFX_jpw2eTb2XTR2TY4" name="Page-1">
-    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;服务节点&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=right;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="2" value="Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=right;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="600" y="80" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8" target="4" edge="1">
@@ -13,7 +13,7 @@
             <mxPoint x="540" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4" value="控制中心" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="4" value="Paitc-center" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="320" y="170" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="7" target="4" edge="1">
@@ -23,21 +23,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6" value="&lt;div&gt;HTTP/HTTPS&lt;/div&gt;&lt;div&gt;定义节点配置&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="5" vertex="1" connectable="0">
+        <mxCell id="6" value="&lt;div&gt;HTTPS&lt;/div&gt;&lt;div&gt;定义节点配置&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="5" vertex="1" connectable="0">
           <mxGeometry x="0.2834" y="-3" relative="1" as="geometry">
             <mxPoint x="-23" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="&lt;div&gt;控制客户端&lt;/div&gt;&lt;div&gt;CLI&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="7" value="CLI/Web" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="流控服务程序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="8" value="Paitc" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="610" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;服务节点&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=right;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="9" value="&lt;div style=&quot;font-size: 14px&quot;&gt;Node&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=right;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="600" y="230" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="流控服务程序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="10" value="Paitc" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="610" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="10" target="4" edge="1">
@@ -46,9 +46,9 @@
             <mxPoint x="544" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="11" vertex="1" connectable="0">
+        <mxCell id="12" value="HTTPS Heartbeat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="11" vertex="1" connectable="0">
           <mxGeometry x="-0.3869" y="-4" relative="1" as="geometry">
-            <mxPoint x="51" y="-76" as="offset" />
+            <mxPoint x="61" y="-76" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#008a00;strokeColor=#66B2FF;" parent="1" source="14" target="4" edge="1">
